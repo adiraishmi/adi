@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- External CSS -->
+    <style>  /* Internal CSS */
+        /*1. Type Selector */
+        p {
+            color: green; /* Named type color */
+        }
+
+        /*2. Class Selector */
+        .myClass {
+            color: #FF0000; /* Hex Type color */
+        }
+
+        /*3. ID Selector */
+        #myId {
+            color: rgb(0, 0, 255); /* RGB type color */
+        }
+
+        /*4. Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*5. Attribute Selector */
+        button[name="myButton"] {
+            background-color: yellow;
+            margin: auto;
+            width: center;
+            padding: 10px;
+        }
+
+        /*6. Pseudo-class Selector */
+        p:hover {
+            color: rgb(255, 251, 0);
+        }
+
+        /* Background image */
+        body {
+            background-image: url("./cutie.jpg");
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:rgb(0, 255, 242);">Carla May Francisco</h1> <!-- Inline CSS --> 
+    <p class="myClass">CSS-2B</p>
+    <div id="myId">Web</div>
+    <button name="myButton">clik to meow</button>
+</body>
+</html>
